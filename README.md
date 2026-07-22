@@ -73,3 +73,11 @@ At boot, the serial log should show:
 - TinyUSB HID ready
 
 When triggered, the log reports `LISTENING`, followed by `2s SILENCE: STOP LISTENING` after speech ends.
+
+## License and third-party software
+
+Original project code is licensed under the [Apache License 2.0](LICENSE), except where a file states otherwise.
+
+This project uses ESP-IDF, ESP-SR, ESP TinyUSB, TinyUSB, ESP-DSP, `dl_fft`, and cJSON. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for exact versions, attribution, source links, and license terms.
+
+ESP-SR uses an Espressif-specific MIT license whose permission grant is limited to Espressif Systems products. It is not the standard MIT license. Preserve the applicable notices and license texts when redistributing source code or compiled firmware.
