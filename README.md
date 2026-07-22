@@ -2,6 +2,12 @@
 
 Hands-free voice control firmware for an ESP32-S3. It detects the wake word **Jarvis**, sends `Ctrl+B` over native USB HID to start voice input, and sends `Ctrl+B` again after roughly two seconds without speech.
 
+## Architecture
+
+![Arquitectura del sistema ESP32-S3 Jarvis amb IA local, VAD neuronal i control USB HID](docs/images/arquitectura-cat.png)
+
+*Arquitectura del sistema i competències de Formació Professional treballades en el projecte.*
+
 ## Hardware
 
 - ESP32-S3 with native USB/OTG
