@@ -16,14 +16,14 @@ Hands-free voice control firmware for an ESP32-S3. It detects the wake word **Ja
 
 ### Wiring
 
-| Device | ESP32-S3 GPIO |
+| Device pin | Connect to |
 |---|---:|
-| INMP441 SD | 8 |
-| INMP441 SCK/BCLK | 9 |
-| INMP441 WS/LRCLK | 39 |
-| WS2812 data | 48 |
+| INMP441 SD | GPIO 8 |
+| INMP441 SCK/BCLK | GPIO 9 |
+| INMP441 WS/LRCLK | GPIO 39 |
+| INMP441 L/R | GND |
 
-The INMP441 L/R pin is configured for the left I2S slot used by the firmware.
+The RGB LED is built into the ESP32-S3 board and requires no external wiring. Nothing is connected to GPIO 48.
 
 ## Behavior
 
